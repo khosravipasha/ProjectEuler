@@ -21,7 +21,7 @@ int main(){
 		for (int i = 1; i <= 20; i++)
 			if (!cancelled[i] && ans % i == 0){
 				ans /= i;
-        check /= i;
+        			check /= i;
 				cancelled[i] = true;
 			}
 	}
